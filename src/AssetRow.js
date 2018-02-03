@@ -11,7 +11,7 @@ import './AssetRow-odometer-hack.css'
 
 const localeOpts = {
   style: 'currency',
-  currency: 'USD'
+  currency: 'EUR'
 }
 
 const marketCapLocaleOpts = Object.assign({
