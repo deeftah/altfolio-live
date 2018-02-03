@@ -2,6 +2,7 @@
   "name": "altfolio-rodeo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://alty.nl/folio",
   "dependencies": {
     "cleave.js": "^1.0.9",
     "cryptocurrency-icons": "git+ssh://git@github.com:pastudan/cryptocurrency-icons.git",
