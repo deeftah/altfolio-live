@@ -123,5 +123,5 @@ class AssetRow extends Component {
     </div>
   }
 }
-
+ 
 export default AssetRow
