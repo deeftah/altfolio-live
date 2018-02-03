@@ -333,7 +333,7 @@ class App extends Component {
     })
 
     if (total !== 0) {
-      document.title = `${total.toLocaleString({}, {style: 'currency', currency: 'USD'})} | Altfolio`
+      document.title = `${total.toLocaleString({}, {style: 'currency', currency: 'EUR'})} | Altfolio`
     }
 
     const sortedCoinsHeld = coins.filter(coin => this.getHoldingQuantity(coin.symbol)).sort((coinA, coinB) => {
@@ -378,7 +378,7 @@ class App extends Component {
           <div className="App-sticky-label">TOTAL</div>
           {total.toLocaleString({}, {
             style: 'currency',
-            currency: 'USD'
+            currency: 'EUR'
           })}
         </div>
         <div className="App-panel App-overview">
