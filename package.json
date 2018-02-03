@@ -21,8 +21,8 @@
     "ws": "^4.0.0"
   },
   "scripts": {
-    "start": "react-scripts cross-env PUBLIC_URL=http://alty.nl/folio start",
-    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts cross-env PUBLIC_URL=http://alty.nl/folio build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
